@@ -2658,18 +2658,18 @@ input, select, textarea {
 
 		}
 
-	a.image {
+	image {
 		overflow: hidden;
 	}
 
-		a.image img {
+		image img, #post-img {
 			-moz-transition: -moz-transform 0.2s ease-out;
 			-webkit-transition: -webkit-transform 0.2s ease-out;
 			-ms-transition: -ms-transform 0.2s ease-out;
 			transition: transform 0.2s ease-out;
 		}
 
-		a.image:hover img {
+		image:hover img, #post-img:hover {
 			-moz-transform: scale(1.05);
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
@@ -3234,10 +3234,10 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
+			background-image: url("../../images/ed16.jpg");
+			background-size: contain;
+			background-position: unset;
+			background-repeat: no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
