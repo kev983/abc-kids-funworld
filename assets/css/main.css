@@ -3351,7 +3351,7 @@ table.alt tbody tr td {
   background-color: #212931;
   background-image: url("../../images/ed16.jpg");
   background-size: contain;
-  background-position: center;
+  background-position: unset;
   background-repeat: no-repeat;
   background-attachment: scroll, scroll, scroll;
   z-index: -1;
