@@ -3349,12 +3349,17 @@ table.alt tbody tr td {
   width: 100%;
   height: 100%;
   background-color: #212931;
-  background-image: url("../../images/ed16.jpg");
+  background-image: url("../../images/bd61.jpg");
   background-size: contain;
   background-position: unset;
   background-repeat: no-repeat;
-  background-attachment: scroll, scroll, scroll;
+  background-attachment: fixed;
   z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  #wrapper > .bg {
+    background-size: center;
+  }
 }
 
 #wrapper > .bg.fixed {
