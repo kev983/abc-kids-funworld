@@ -3350,10 +3350,10 @@ table.alt tbody tr td {
   height: 100%;
   background-color: #212931;
   background-image: url("../../images/bd61.jpg");
-  background-size: contain;
-  background-position: unset;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: auto, auto, 100% auto;
+  background-position: center, center, top center;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: scroll, scroll, scroll;
   z-index: -1;
 }
 @media screen and (max-width: 600px) {
