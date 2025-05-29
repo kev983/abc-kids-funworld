@@ -3688,7 +3688,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-bottom-color: #ffffff;
 }
 
-#header .logo {
+#header .logo,
+.header .logo {
   -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
     opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
   -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
@@ -3711,7 +3712,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   visibility: visible;
 }
 
-#header .logo:hover {
+#header .logo:hover,
+.header .logo:hover {
   border-color: #18bfef !important;
   color: #18bfef !important;
 }
@@ -3728,7 +3730,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding-bottom: 3rem;
   }
 
-  #header .logo {
+  #header .logo,
+  .header .logo {
     font-size: 1.75rem;
     border-width: 3px !important;
   }
