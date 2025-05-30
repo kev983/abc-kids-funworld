@@ -3363,6 +3363,12 @@ table.alt tbody tr td {
     background-repeat: repeat-x;
   }
 }
+@media screen and (max-width: 830px) {
+  .header .logo {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
 
 #wrapper > .bg.fixed {
   position: fixed;
